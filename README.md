@@ -189,4 +189,32 @@ Check [Examples & Solutions](notebooks/foundations_lab_solutions.md) - See befor
 
 **Questions?** Check the [Course Overview](course_overview.md) • **Need Help?** See [Getting Started Guide](START_HERE.md)
 
+---
+
+## 📚 Documentation & Resources
+
+### 🚀 Quick Links
+- **[🚀 Quick Start Guide](docs/QUICK_START.md)** - Get started in minutes
+- **[📖 API Reference](docs/API_REFERENCE.md)** - Complete tool documentation
+- **[🔧 Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
+- **[📋 Course Roadmap](COURSE_ROADMAP.md)** - Full learning path
+
+### 🛠️ Interactive Tools
+- **[📊 Streamlit Dashboard](streamlit_app.py)** - Run with `streamlit run streamlit_app.py`
+  - Prompt Validator interface
+  - LLM Playground
+  - Production Validator
+  - A/B Testing framework
+  - Progress Tracker
+
+### 🤝 Contributing
+- **[📝 Contributing Guide](CONTRIBUTING.md)** - How to contribute
+- **[⭐ Improvements Summary](IMPROVEMENTS_SUMMARY.md)** - Recent enhancements
+- **[🐛 Report Issues](https://github.com/ElaMCB/AI-Prompt-Engineering/issues)** - GitHub Issues
+
+### 🌐 Live Site
+**GitHub Pages:** [https://elamcb.github.io/AI-Prompt-Engineering/](https://elamcb.github.io/AI-Prompt-Engineering/)
+
+---
+
 **MIT Licensed** • **Actively Maintained** • **Community Contributions Welcome**

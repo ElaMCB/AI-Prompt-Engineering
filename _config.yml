@@ -1,0 +1,42 @@
+# GitHub Pages Jekyll Configuration
+
+title: AI Prompt Engineering Mastery
+description: Transform your AI interactions. Master prompt engineering with professional-grade tools and interactive learning.
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Site settings
+url: https://elamcb.github.io
+baseurl: /AI-Prompt-Engineering
+github_username: ElaMCB
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Quick Start
+    url: /docs/QUICK_START
+  - title: API Reference
+    url: /docs/API_REFERENCE
+  - title: Course Roadmap
+    url: /COURSE_ROADMAP
+  - title: GitHub
+    url: https://github.com/ElaMCB/AI-Prompt-Engineering
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - "*.py"
+  - "*.ipynb"
+  - venv/
+  - .git/
+  - .vscode/
+
+# Markdown processing
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
