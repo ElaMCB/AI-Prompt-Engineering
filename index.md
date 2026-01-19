@@ -2,27 +2,19 @@
 layout: default
 ---
 
-# AI Prompt Engineering Mastery
-
-> **Live Site:** [https://elamcb.github.io/AI-Prompt-Engineering/](https://elamcb.github.io/AI-Prompt-Engineering/)
-
-<div align="center">
-
-```
- TRANSFORM YOUR AI INTERACTIONS
-```
-
-[Quick Start](docs/QUICK_START.md) • [Course Overview](course_overview.md) • [Tools & API](docs/API_REFERENCE.md) • [Course Roadmap](COURSE_ROADMAP.md)
-
+<div class="hero">
+  <h1>AI Prompt Engineering Mastery</h1>
+  <p>Transform your AI interactions. Master prompt engineering with professional-grade tools and interactive learning.</p>
+  <div style="margin-top: 2rem;">
+    <a href="/AI-Prompt-Engineering/docs/QUICK_START" class="btn">Quick Start</a>
+    <a href="/AI-Prompt-Engineering/course_overview" class="btn">Course Overview</a>
+    <a href="/AI-Prompt-Engineering/docs/API_REFERENCE" class="btn">API Reference</a>
+  </div>
 </div>
-
----
 
 ## Welcome
 
 Learn to speak AI's language. Turn vague requests into precise instructions that generate professional-quality output every time.
-
-Your site is live at: **https://elamcb.github.io/AI-Prompt-Engineering/**
 
 ---
 
