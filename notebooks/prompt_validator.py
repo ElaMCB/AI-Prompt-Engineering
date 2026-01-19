@@ -159,31 +159,31 @@ class PromptValidator:
         feedback = []
         
         if scores.get('clarity_score', 0) < 0.7:
-            feedback.append("💡 **Clarity**: Use shorter, clearer sentences (optimal: 15-25 words per sentence)")
+            feedback.append("**Clarity**: Use shorter, clearer sentences (optimal: 15-25 words per sentence)")
         
         if scores.get('specificity_score', 0) < 0.7:
-            feedback.append("🎯 **Specificity**: Replace vague words ('good', 'nice') with concrete details")
+            feedback.append("**Specificity**: Replace vague words ('good', 'nice') with concrete details")
         
         if scores.get('context_score', 0) < 0.5:
-            feedback.append("🎭 **Context**: Add a clear role: 'You are a [specific role]...'")
+            feedback.append("**Context**: Add a clear role: 'You are a [specific role]...'")
         
         if scores.get('structure_score', 0) < 0.6:
-            feedback.append("📐 **Structure**: Organize your prompt with clear sections or numbered points")
+            feedback.append("**Structure**: Organize your prompt with clear sections or numbered points")
         
         if scores.get('examples_score', 0) < 0.5:
-            feedback.append("📝 **Examples**: Include examples or format guidance: 'Like this: [example]'")
+            feedback.append("**Examples**: Include examples or format guidance: 'Like this: [example]'")
         
         if scores.get('audience_score', 0) < 0.5:
-            feedback.append("👥 **Audience**: Define your audience: 'for [specific group] who [specific situation]'")
+            feedback.append("**Audience**: Define your audience: 'for [specific group] who [specific situation]'")
         
         if scores.get('length_score', 0) < 0.5:
-            feedback.append("📏 **Length**: Specify output length: '200 words', '3 paragraphs', etc.")
+            feedback.append("**Length**: Specify output length: '200 words', '3 paragraphs', etc.")
         
         if scores.get('requirements_score', 0) < 0.5:
-            feedback.append("✅ **Requirements**: List specific requirements: 'Must include...', 'Should contain...'")
+            feedback.append("**Requirements**: List specific requirements: 'Must include...', 'Should contain...'")
         
         if not feedback:
-            feedback.append("🎉 **Excellent!** Your prompt follows best practices across all criteria.")
+            feedback.append("**Excellent!** Your prompt follows best practices across all criteria.")
         
         return feedback
     
@@ -193,16 +193,16 @@ class PromptValidator:
         
         # Priority-based suggestions
         if scores.get('overall_score', 0) < 70:
-            suggestions.append("🚨 **Priority**: Focus on clarity and specificity - these are the most important factors")
+            suggestions.append("**Priority**: Focus on clarity and specificity - these are the most important factors")
         
         if scores.get('context_score', 0) < 0.5:
-            suggestions.append("💡 **Quick win**: Start with 'You are a [role]' to immediately improve context")
+            suggestions.append("**Quick win**: Start with 'You are a [role]' to immediately improve context")
         
         if scores.get('specificity_score', 0) < 0.6:
-            suggestions.append("💡 **Quick win**: Add specific numbers, names, or concrete details")
+            suggestions.append("**Quick win**: Add specific numbers, names, or concrete details")
         
         if all(s < 0.7 for s in [scores.get('clarity_score', 0), scores.get('structure_score', 0)]):
-            suggestions.append("📋 **Structure tip**: Break long sentences into shorter ones, use bullet points")
+            suggestions.append("**Structure tip**: Break long sentences into shorter ones, use bullet points")
         
         return suggestions
     

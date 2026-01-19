@@ -137,30 +137,30 @@ class PromptABTester:
             return f"Cannot generate report: {analysis['error']}"
         
         report = f"""
-📊 A/B TEST REPORT: {test_id}
+A/B TEST REPORT: {test_id}
 {'=' * 50}
 
-📝 Description: {test.description}
-📏 Metric: {test.metric}
-📅 Created: {test.created_date[:10]}
+Description: {test.description}
+Metric: {test.metric}
+Created: {test.created_date[:10]}
 
-🅰️  PROMPT A RESULTS:
+PROMPT A RESULTS:
    Sample Size: {analysis['prompt_a']['count']}
    Average Score: {analysis['prompt_a']['mean_score']}/10
    Median Score: {analysis['prompt_a']['median_score']}/10
    Consistency: {10 - analysis['prompt_a']['std_dev']:.1f}/10
 
-🅱️  PROMPT B RESULTS:
+PROMPT B RESULTS:
    Sample Size: {analysis['prompt_b']['count']}
    Average Score: {analysis['prompt_b']['mean_score']}/10
    Median Score: {analysis['prompt_b']['median_score']}/10
    Consistency: {10 - analysis['prompt_b']['std_dev']:.1f}/10
 
-🏆 WINNER: {analysis['winner']}
-🎯 Confidence: {analysis['confidence']}
-📈 Statistical Significance: {analysis['statistical_significance']}
+WINNER: {analysis['winner']}
+Confidence: {analysis['confidence']}
+Statistical Significance: {analysis['statistical_significance']}
 
-💡 RECOMMENDATION:
+RECOMMENDATION:
 """
         
         # Add recommendation

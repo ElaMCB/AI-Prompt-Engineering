@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AI Prompt Engineering Mastery
 
 > **Live Site:** [https://elamcb.github.io/AI-Prompt-Engineering/](https://elamcb.github.io/AI-Prompt-Engineering/)
@@ -8,13 +12,13 @@
  TRANSFORM YOUR AI INTERACTIONS
 ```
 
-[🚀 Quick Start](docs/QUICK_START.md) • [📚 Course Overview](course_overview.md) • [🔧 Tools & API](docs/API_REFERENCE.md) • [📖 Course Roadmap](COURSE_ROADMAP.md)
+[Quick Start](docs/QUICK_START.md) • [Course Overview](course_overview.md) • [Tools & API](docs/API_REFERENCE.md) • [Course Roadmap](COURSE_ROADMAP.md)
 
 </div>
 
 ---
 
-## 🎯 Welcome
+## Welcome
 
 Learn to speak AI's language. Turn vague requests into precise instructions that generate professional-quality output every time.
 
@@ -22,36 +26,36 @@ Your site is live at: **https://elamcb.github.io/AI-Prompt-Engineering/**
 
 ---
 
-## 🚀 Quick Navigation
+## Quick Navigation
 
-### 📖 Documentation
+### Documentation
 - **[Quick Start Guide](docs/QUICK_START.md)** - Get started in minutes
 - **[API Reference](docs/API_REFERENCE.md)** - Complete tool documentation
 - **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
 
-### 📚 Course Materials
+### Course Materials
 - **[Course Overview](course_overview.md)** - Full curriculum
 - **[Course Roadmap](COURSE_ROADMAP.md)** - Learning path
 - **[Foundations Lab](foundations_lab.md)** - First interactive lab
 - **[Start Here](START_HERE.md)** - Getting started guide
 
-### 🛠️ Tools & Resources
+### Tools & Resources
 - **[Interactive Dashboard](streamlit_app.py)** - Run with `streamlit run streamlit_app.py`
 - **[Prompt Validator](notebooks/prompt_validator.py)** - Score prompts 0-100%
 - **[Production Validator](notebooks/production_validator.py)** - Production testing
 - **[A/B Testing](notebooks/ab_testing_framework.py)** - Compare prompt versions
 - **[Progress Tracker](notebooks/progress_tracker.py)** - Track learning
 
-### 🤝 Community
+### Community
 - **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
 - **[GitHub Repository](https://github.com/ElaMCB/AI-Prompt-Engineering)** - Source code
 - **[Improvements Summary](IMPROVEMENTS_SUMMARY.md)** - Recent enhancements
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### ✅ **Prompt Validator**
+### **Prompt Validator**
 Score prompts 0-100% using multi-factor weighted scoring:
 - Clarity (25%)
 - Specificity (25%)
@@ -59,20 +63,20 @@ Score prompts 0-100% using multi-factor weighted scoring:
 - Structure (15%)
 - Examples (15%)
 
-### 🚀 **Production Validator**
+### **Production Validator**
 Test prompts for production deployment:
 - Consistency testing
 - Robustness with edge cases
 - Performance monitoring
 - Automated recommendations
 
-### 🤖 **Model-Agnostic LLM Support**
+### **Model-Agnostic LLM Support**
 Works with multiple providers:
 - OpenAI (GPT-3.5, GPT-4)
 - Anthropic (Claude 3)
 - Ollama (local models)
 
-### 📊 **Interactive Dashboard**
+### **Interactive Dashboard**
 Use the Streamlit dashboard for:
 - Real-time prompt validation
 - LLM playground
@@ -81,7 +85,7 @@ Use the Streamlit dashboard for:
 
 ---
 
-## 🎓 Getting Started
+## Getting Started
 
 1. **Clone the repository:**
    ```bash
@@ -111,7 +115,7 @@ Use the Streamlit dashboard for:
 
 ---
 
-## 📈 What You'll Learn
+## What You'll Learn
 
 | Level | Focus | Time | Outcome |
 |-------|-------|------|---------|
@@ -121,7 +125,7 @@ Use the Streamlit dashboard for:
 
 ---
 
-## 🛠️ Built-in Tools
+## Built-in Tools
 
 | Tool | Purpose | Benefit |
 |------|---------|---------|
@@ -133,7 +137,7 @@ Use the Streamlit dashboard for:
 
 ---
 
-## 💡 Success Stories
+## Success Stories
 
 > **"Went from spending 4 hours writing one blog post to generating 10 high-quality articles in 30 minutes. Got promoted within 3 months."**  
 > _— Sarah, Marketing Manager_
@@ -143,7 +147,7 @@ Use the Streamlit dashboard for:
 
 ---
 
-## 📚 Documentation Links
+## Documentation Links
 
 ### For Users
 - [Quick Start Guide](docs/QUICK_START.md) - Get started quickly
@@ -157,14 +161,14 @@ Use the Streamlit dashboard for:
 
 ---
 
-## 🌐 Live Site
+## Live Site
 
 Your GitHub Pages site: **https://elamcb.github.io/AI-Prompt-Engineering/**
 
-- ✅ Auto-deployed from main branch
-- ✅ Documentation accessible online
-- ✅ Markdown rendering
-- ✅ Easy navigation
+- Auto-deployed from main branch
+- Documentation accessible online
+- Markdown rendering
+- Easy navigation
 
 ---
 
@@ -176,7 +180,7 @@ MIT Licensed • Actively Maintained • Community Contributions Welcome
 
 <div align="center">
 
-**⭐ Star this repository** to get notified when new labs are released
+**Star this repository** to get notified when new labs are released
 
 [GitHub Repository](https://github.com/ElaMCB/AI-Prompt-Engineering) • [Issues](https://github.com/ElaMCB/AI-Prompt-Engineering/issues) • [Contributing](CONTRIBUTING.md)
 

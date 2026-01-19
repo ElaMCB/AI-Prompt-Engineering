@@ -120,11 +120,11 @@ Keep under 10 words each."
 
 **Most AI courses teach theory.** This course is built around **doing**.
 
-✅ **Interactive Jupyter Notebooks** - Learn by fixing real problems  
-✅ **Immediate Feedback** - Built-in validation scores your prompts 0-100%  
-✅ **Progressive Challenges** - From broken prompts to production systems  
-✅ **Real Datasets** - Work with actual business scenarios  
-✅ **Portfolio Projects** - Ship applications you can showcase to employers
+**Interactive Jupyter Notebooks** - Learn by fixing real problems  
+**Immediate Feedback** - Built-in validation scores your prompts 0-100%  
+**Progressive Challenges** - From broken prompts to production systems  
+**Real Datasets** - Work with actual business scenarios  
+**Portfolio Projects** - Ship applications you can showcase to employers
 
 ## Success Stories
 
@@ -191,28 +191,28 @@ Check [Examples & Solutions](notebooks/foundations_lab_solutions.md) - See befor
 
 ---
 
-## 📚 Documentation & Resources
+## Documentation & Resources
 
-### 🚀 Quick Links
-- **[🚀 Quick Start Guide](docs/QUICK_START.md)** - Get started in minutes
-- **[📖 API Reference](docs/API_REFERENCE.md)** - Complete tool documentation
-- **[🔧 Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
-- **[📋 Course Roadmap](COURSE_ROADMAP.md)** - Full learning path
+### Quick Links
+- **[Quick Start Guide](docs/QUICK_START.md)** - Get started in minutes
+- **[API Reference](docs/API_REFERENCE.md)** - Complete tool documentation
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
+- **[Course Roadmap](COURSE_ROADMAP.md)** - Full learning path
 
-### 🛠️ Interactive Tools
-- **[📊 Streamlit Dashboard](streamlit_app.py)** - Run with `streamlit run streamlit_app.py`
+### Interactive Tools
+- **[Streamlit Dashboard](streamlit_app.py)** - Run with `streamlit run streamlit_app.py`
   - Prompt Validator interface
   - LLM Playground
   - Production Validator
   - A/B Testing framework
   - Progress Tracker
 
-### 🤝 Contributing
-- **[📝 Contributing Guide](CONTRIBUTING.md)** - How to contribute
-- **[⭐ Improvements Summary](IMPROVEMENTS_SUMMARY.md)** - Recent enhancements
-- **[🐛 Report Issues](https://github.com/ElaMCB/AI-Prompt-Engineering/issues)** - GitHub Issues
+### Contributing
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
+- **[Improvements Summary](IMPROVEMENTS_SUMMARY.md)** - Recent enhancements
+- **[Report Issues](https://github.com/ElaMCB/AI-Prompt-Engineering/issues)** - GitHub Issues
 
-### 🌐 Live Site
+### Live Site
 **GitHub Pages:** [https://elamcb.github.io/AI-Prompt-Engineering/](https://elamcb.github.io/AI-Prompt-Engineering/)
 
 ---

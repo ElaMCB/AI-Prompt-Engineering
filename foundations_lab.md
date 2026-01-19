@@ -4,7 +4,7 @@
 <div align="center">
 
 ```
-🎯 YOUR FIRST CHALLENGE
+YOUR FIRST CHALLENGE
 Fix 3 broken prompts → See immediate improvements → Master the CLEAR framework
 ```
 
@@ -18,12 +18,12 @@ Fix 3 broken prompts → See immediate improvements → Master the CLEAR framewo
 
 By the end of this lab, you'll transform from someone who fights with AI to someone who commands it:
 
-### ❌ **Before This Lab**
+### **Before This Lab**
 - "Write me a blog post" → Gets generic, useless content
 - "Help me with code" → Gets vague, unhelpful advice  
 - "Create a marketing strategy" → Gets one-size-fits-all templates
 
-### ✅ **After This Lab**
+### **After This Lab**
 - Precise prompts that generate $500+ worth of professional content
 - Systematic approach using the CLEAR framework
 - Confidence to tackle any AI task with specific, actionable prompts
@@ -32,7 +32,7 @@ By the end of this lab, you'll transform from someone who fights with AI to some
 
 ## The Challenge: Fix These Broken Prompts
 
-### 🚨 **Broken Prompt #1: Content Creation**
+### **Broken Prompt #1: Content Creation**
 ```
 "Write me a blog post about productivity"
 ```
@@ -41,7 +41,7 @@ By the end of this lab, you'll transform from someone who fights with AI to some
 
 **Your mission:** Transform this into a prompt that generates professional-quality content worth $200+ in freelance fees.
 
-### 🚨 **Broken Prompt #2: Code Help**  
+### **Broken Prompt #2: Code Help**  
 ```
 "Help me with this Python code"
 ```
@@ -50,7 +50,7 @@ By the end of this lab, you'll transform from someone who fights with AI to some
 
 **Your mission:** Create a prompt that gets specific, actionable debugging assistance.
 
-### 🚨 **Broken Prompt #3: Business Strategy**
+### **Broken Prompt #3: Business Strategy**
 ```
 "Give me a marketing strategy"  
 ```
@@ -83,7 +83,7 @@ Help writing a cover letter for a marketing manager role at a tech startup
 ### 📱 **Scenario 2: Social Media**  
 Create Instagram captions for a small bakery's daily posts
 
-### 💻 **Scenario 3: Learning**
+### **Scenario 3: Learning**
 Get help learning Python for data analysis with no programming background
 
 ---
@@ -102,17 +102,17 @@ Get help learning Python for data analysis with no programming background
 
 ## Built-in Learning Tools
 
-### 🎯 **Prompt Validator**
+### **Prompt Validator**
 - Scores your prompts 0-100% using best practices
 - Gives specific feedback for improvement
 - Tracks your progress automatically
 
-### 📊 **Progress Tracker**  
+### **Progress Tracker**  
 - Monitors skill development across 5 core competencies
 - Shows exactly what you've mastered
 - Generates completion certificates
 
-### 🔄 **Version Control**
+### **Version Control**
 - Saves your best prompts for reuse
 - Tracks improvements over time
 - Builds your personal prompt library
@@ -123,13 +123,13 @@ Get help learning Python for data analysis with no programming background
 
 <div align="center">
 
-### 🚀 **Launch the Interactive Lab**
+### **Launch the Interactive Lab**
 
 This is where the real learning happens. The Jupyter notebook contains:
-- ✅ Broken prompts to fix (with immediate feedback)
-- ✅ Interactive exercises with built-in validation
-- ✅ Real-world scenarios to practice
-- ✅ Progress tracking and skill assessment
+- Broken prompts to fix (with immediate feedback)
+- Interactive exercises with built-in validation
+- Real-world scenarios to practice
+- Progress tracking and skill assessment
 
 **Prerequisites:** Python 3.8+, basic computer skills  
 **Setup time:** 2 minutes  
@@ -161,7 +161,7 @@ jupyter notebook notebooks/foundations_lab.ipynb
 - Validate and improve prompt quality
 - Handle real-world AI tasks confidently
 
-### 🚀 **Next Steps**
+### **Next Steps**
 - **Context Lab:** Make AI understand your specific business
 - **Structured Outputs Lab:** Generate clean JSON, APIs, data
 - **Chain-of-Thought Lab:** Build AI that reasons step-by-step
@@ -178,7 +178,7 @@ jupyter notebook notebooks/foundations_lab.ipynb
 
 **Ready to transform your AI interactions?**
 
-[**🎯 Launch Foundations Lab →**](notebooks/foundations_lab.ipynb)
+[**Launch Foundations Lab →**](notebooks/foundations_lab.ipynb)
 
 *Your first improved prompt is just 5 minutes away*
 

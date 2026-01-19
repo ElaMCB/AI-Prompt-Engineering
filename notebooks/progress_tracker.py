@@ -134,17 +134,17 @@ class ProgressTracker:
     
     def generate_skill_report(self) -> str:
         """Generate a detailed skill progress report"""
-        report = f"\n📊 SKILL PROGRESS REPORT - {self.student_name}\n"
+        report = f"\nSKILL PROGRESS REPORT - {self.student_name}\n"
         report += "=" * 50 + "\n\n"
         
         for week, skills in self.skills_matrix.items():
             week_name = week.replace('_', ' ').title()
-            report += f"🗓️  {week_name}:\n"
+            report += f"{week_name}:\n"
             
             for skill, score in skills.items():
                 skill_name = skill.replace('_', ' ').title()
                 progress_bar = self._create_progress_bar(score)
-                status = "✅ Mastered" if score >= 0.7 else "🔄 In Progress" if score > 0 else "⏳ Not Started"
+                status = "Mastered" if score >= 0.7 else "In Progress" if score > 0 else "Not Started"
                 report += f"   {skill_name}: {progress_bar} {score:.1%} {status}\n"
             
             report += "\n"
@@ -164,7 +164,7 @@ class ProgressTracker:
         
         if mastery_rate >= 0.8:
             certificate = f"""
-🏆 CERTIFICATE OF COMPLETION 🏆
+CERTIFICATE OF COMPLETION
 
 This certifies that {self.student_name} has successfully completed
 {week.replace('_', ' ').title()} of the Prompt Engineering Mastery Course

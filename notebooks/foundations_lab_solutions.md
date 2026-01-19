@@ -114,10 +114,10 @@ Focus on cost-effective strategies that don't require a marketing team.
 ## Foundations Lab Success Metrics
 
 **You've mastered Foundations Lab if you can:**
-- ✅ Identify what makes a prompt vague vs. specific
-- ✅ Apply the CLEAR framework to any scenario
-- ✅ Write prompts that generate actionable, valuable content
-- ✅ Recognize when you need more context vs. when you're being too verbose
+- Identify what makes a prompt vague vs. specific
+- Apply the CLEAR framework to any scenario
+- Write prompts that generate actionable, valuable content
+- Recognize when you need more context vs. when you're being too verbose
 
 **Red flags that you need more practice:**
 - ❌ Your prompts still get generic responses

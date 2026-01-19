@@ -12,6 +12,9 @@ url: https://elamcb.github.io
 baseurl: /AI-Prompt-Engineering
 github_username: ElaMCB
 
+# Favicon
+favicon: /AI-Prompt-Engineering/favicon.svg
+
 # Navigation
 nav:
   - title: Home

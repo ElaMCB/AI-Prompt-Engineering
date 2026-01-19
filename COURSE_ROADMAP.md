@@ -9,28 +9,28 @@ This course is built around **hands-on practice**, not theory. Every concept is 
 ## Level 1: Foundation Labs (2-3 weeks)
 *Master the core skills that separate professionals from beginners*
 
-### Notebook 1: Prompt Foundations ✅ Available Now
+### Notebook 1: Prompt Foundations Available Now
 **Time:** 2-3 hours | **Skills:** Clarity, specificity, CLEAR framework
 - Fix 3 broken prompts that everyone struggles with
 - Learn the CLEAR framework (Context, Length, Examples, Audience, Requirements)
 - Complete real-world scenarios (job applications, social media, code help)
 - Take the $500 content challenge
 
-### Notebook 2: Context Mastery 🚧 Coming Soon
+### Notebook 2: Context Mastery Coming Soon
 **Time:** 2-3 hours | **Skills:** Information grounding, domain knowledge
 - Make AI understand YOUR specific business context
 - Learn few-shot and zero-shot prompting techniques
 - Master data integration and knowledge injection
 - Build domain-specific prompt libraries
 
-### Notebook 3: Structured Outputs 🚧 Coming Soon
+### Notebook 3: Structured Outputs Coming Soon
 **Time:** 2-3 hours | **Skills:** JSON, XML, API-ready data generation
 - Generate clean, parseable data formats
 - Master schema-driven prompt design
 - Build API integration workflows
 - Create data validation pipelines
 
-### Notebook 4: Chain-of-Thought 🚧 Coming Soon
+### Notebook 4: Chain-of-Thought Coming Soon
 **Time:** 2-3 hours | **Skills:** Step-by-step reasoning, logic chains
 - Implement reasoning frameworks
 - Build multi-step problem solving
@@ -42,28 +42,28 @@ This course is built around **hands-on practice**, not theory. Every concept is 
 ## Level 2: Engineering Playground (2-3 weeks)
 *Build advanced systems that professionals use in production*
 
-### Notebook 5: Advanced Frameworks 🚧 Coming Soon
+### Notebook 5: Advanced Frameworks Coming Soon
 **Time:** 3-4 hours | **Skills:** ReAct agents, tool integration
 - Build AI agents that use external tools
 - Implement ReAct (Reasoning + Acting) patterns
 - Create tool-calling workflows
 - Master agent orchestration
 
-### Notebook 6: Prompt Chaining 🚧 Coming Soon
+### Notebook 6: Prompt Chaining Coming Soon
 **Time:** 3-4 hours | **Skills:** Multi-step workflows, pipeline design
 - Chain prompts for complex tasks
 - Build conditional logic flows
 - Create error handling and fallbacks
 - Master workflow optimization
 
-### Notebook 7: Self-Critique Systems 🚧 Coming Soon
+### Notebook 7: Self-Critique Systems Coming Soon
 **Time:** 3-4 hours | **Skills:** Quality loops, self-improvement
 - Build AI that critiques its own work
 - Implement iterative improvement cycles
 - Create quality scoring systems
 - Master self-correction patterns
 
-### Notebook 8: Testing & Evaluation 🚧 Coming Soon
+### Notebook 8: Testing & Evaluation Coming Soon
 **Time:** 3-4 hours | **Skills:** Benchmarking, optimization, A/B testing
 - Measure prompt performance scientifically
 - Build A/B testing frameworks
@@ -75,28 +75,28 @@ This course is built around **hands-on practice**, not theory. Every concept is 
 ## Level 3: Professional Projects (2-3 weeks)
 *Ship real applications with measurable business value*
 
-### Project 1: Customer Support AI 🚧 Coming Soon
+### Project 1: Customer Support AI Coming Soon
 **Goal:** Reduce response times by 40%
 - Automated ticket classification and routing
 - Context-aware response generation
 - Escalation detection and handoff
 - Performance monitoring and optimization
 
-### Project 2: Content Strategy Engine 🚧 Coming Soon
+### Project 2: Content Strategy Engine Coming Soon
 **Goal:** Automated content pipelines
 - Multi-platform content generation
 - Brand voice consistency systems
 - Content calendar automation
 - Performance tracking and optimization
 
-### Project 3: Code Review Assistant 🚧 Coming Soon
+### Project 3: Code Review Assistant Coming Soon
 **Goal:** Improve code quality metrics
 - Automated code analysis and suggestions
 - Security vulnerability detection
 - Performance optimization recommendations
 - Documentation generation
 
-### Project 4: Research Synthesis Bot 🚧 Coming Soon
+### Project 4: Research Synthesis Bot Coming Soon
 **Goal:** Accelerate literature reviews
 - Multi-source information synthesis
 - Citation and reference management

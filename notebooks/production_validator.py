@@ -364,25 +364,25 @@ class ProductionValidator:
         recommendations = []
         
         if score < 70:
-            recommendations.append("⚠️ **Production Not Ready**: Score below 70%. Address critical issues before deployment.")
+            recommendations.append("**Production Not Ready**: Score below 70%. Address critical issues before deployment.")
         
         if "consistency" in results:
             consistency = results["consistency"]
             if consistency.get("std_deviation", 0) > 10:
-                recommendations.append("📊 **Consistency**: High variance in outputs. Add more specific constraints.")
+                recommendations.append("**Consistency**: High variance in outputs. Add more specific constraints.")
         
         if "robustness" in results:
             robustness = results["robustness"]
             if robustness.get("robustness_score", 0) < 70:
-                recommendations.append("🛡️ **Robustness**: Prompt fails on edge cases. Add error handling and input validation.")
+                recommendations.append("**Robustness**: Prompt fails on edge cases. Add error handling and input validation.")
         
         if "performance" in results:
             performance = results["performance"]
             if performance.get("avg_execution_time", 0) > 5:
-                recommendations.append("⚡ **Performance**: Slow execution time. Consider optimizing prompt or reducing output length.")
+                recommendations.append("**Performance**: Slow execution time. Consider optimizing prompt or reducing output length.")
         
         if score >= 70 and all(r.get("passed", False) for r in results.values() if isinstance(r, dict)):
-            recommendations.append("✅ **Production Ready**: All tests passed! Safe to deploy with monitoring.")
+            recommendations.append("**Production Ready**: All tests passed! Safe to deploy with monitoring.")
         
         return recommendations
 

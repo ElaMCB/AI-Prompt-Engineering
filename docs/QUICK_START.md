@@ -205,11 +205,11 @@ streamlit run streamlit_app.py
 This opens an interactive dashboard in your browser at `http://localhost:8501`.
 
 **Features:**
-- ✅ Prompt Validator - Score prompts instantly
-- 🤖 LLM Playground - Test prompts with real models
-- 🚀 Production Validator - Validate for deployment
-- ⚖️ A/B Testing - Compare prompt versions
-- 📊 Progress Tracker - Track your learning
+- Prompt Validator - Score prompts instantly
+- LLM Playground - Test prompts with real models
+- Production Validator - Validate for deployment
+- A/B Testing - Compare prompt versions
+- Progress Tracker - Track your learning
 
 ### Step 2: Validate Your First Prompt
 
@@ -319,10 +319,10 @@ print(tester.generate_report("email_subject_ab"))
 result = validator.validate_in_production("customer_support_prompt", run_prompt)
 
 if result['production_ready']:
-    print("✅ Safe to deploy!")
+    print("Safe to deploy!")
     # Deploy to production
 else:
-    print("⚠️ Not ready - address issues:")
+    print("Not ready - address issues:")
     for rec in result['recommendations']:
         print(f"  - {rec}")
     # Fix issues and re-validate
@@ -373,4 +373,4 @@ For more troubleshooting, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 - Search [GitHub Issues](https://github.com/ElaMCB/AI-Prompt-Engineering/issues)
 - Open a new issue for bugs or questions
 
-**Happy Prompt Engineering! 🚀**
+**Happy Prompt Engineering!**

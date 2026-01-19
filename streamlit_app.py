@@ -20,7 +20,7 @@ from progress_tracker import ProgressTracker
 # Page configuration
 st.set_page_config(
     page_title="AI Prompt Engineering Dashboard",
-    page_icon="🤖",
+    page_icon=":robot_face:",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -79,26 +79,26 @@ def main():
     initialize_session_state()
     
     # Sidebar navigation
-    st.sidebar.title("🤖 Prompt Engineering Tools")
+    st.sidebar.title("Prompt Engineering Tools")
     page = st.sidebar.radio(
         "Navigate",
-        ["🏠 Home", "✅ Prompt Validator", "🚀 Production Validator", 
-         "⚖️ A/B Testing", "📊 Progress Tracker", "🤖 LLM Playground", "📚 About"]
+        ["Home", "Prompt Validator", "Production Validator", 
+         "A/B Testing", "Progress Tracker", "LLM Playground", "About"]
     )
     
-    if page == "🏠 Home":
+    if page == "Home":
         show_home()
-    elif page == "✅ Prompt Validator":
+    elif page == "Prompt Validator":
         show_prompt_validator()
-    elif page == "🚀 Production Validator":
+    elif page == "Production Validator":
         show_production_validator()
-    elif page == "⚖️ A/B Testing":
+    elif page == "A/B Testing":
         show_ab_testing()
-    elif page == "📊 Progress Tracker":
+    elif page == "Progress Tracker":
         show_progress_tracker()
-    elif page == "🤖 LLM Playground":
+    elif page == "LLM Playground":
         show_llm_playground()
-    elif page == "📚 About":
+    elif page == "About":
         show_about()
 
 
@@ -111,7 +111,7 @@ def show_home():
     with col1:
         st.markdown("""
         <div class="metric-card">
-            <h3>✅ Prompt Validator</h3>
+            <h3>Prompt Validator</h3>
             <p>Score prompts 0-100% using best practices. Get instant feedback on clarity, specificity, context, structure, and examples.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -119,7 +119,7 @@ def show_home():
     with col2:
         st.markdown("""
         <div class="metric-card">
-            <h3>🚀 Production Validator</h3>
+            <h3>Production Validator</h3>
             <p>Test prompts for production deployment. Validate consistency, robustness, edge cases, and performance.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -127,7 +127,7 @@ def show_home():
     with col3:
         st.markdown("""
         <div class="metric-card">
-            <h3>⚖️ A/B Testing</h3>
+            <h3>A/B Testing</h3>
             <p>Compare different prompt versions scientifically. Optimize prompts with data-driven insights.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -146,7 +146,7 @@ def show_home():
 
 def show_prompt_validator():
     """Prompt Validator page"""
-    st.header("✅ Prompt Validator")
+    st.header("Prompt Validator")
     st.markdown("Score your prompts and get instant feedback on quality and best practices.")
     
     prompt = st.text_area(
@@ -158,7 +158,7 @@ def show_prompt_validator():
     col1, col2 = st.columns([1, 3])
     
     with col1:
-        validate_button = st.button("🔍 Validate Prompt", type="primary", use_container_width=True)
+        validate_button = st.button("Validate Prompt", type="primary", use_container_width=True)
     
     if validate_button and prompt:
         with st.spinner("Analyzing prompt..."):
@@ -175,10 +175,10 @@ def show_prompt_validator():
         elif score >= 70:
             st.info(f"**Grade: {grade}** 👍")
         else:
-            st.warning(f"**Grade: {grade}** ⚠️")
+            st.warning(f"**Grade: {grade}**")
         
         # Score breakdown
-        st.subheader("📊 Score Breakdown")
+        st.subheader("Score Breakdown")
         col1, col2, col3, col4, col5 = st.columns(5)
         
         breakdown = result['breakdown']
@@ -194,14 +194,14 @@ def show_prompt_validator():
             st.metric("Examples", f"{breakdown['examples_score']*100:.0f}%")
         
         # Feedback
-        st.subheader("💡 Feedback & Suggestions")
+        st.subheader("Feedback & Suggestions")
         feedback = result.get('feedback', [])
         for item in feedback:
             st.markdown(f"- {item}")
         
         suggestions = result.get('suggestions', [])
         if suggestions:
-            st.subheader("🚀 Quick Wins")
+            st.subheader("Quick Wins")
             for suggestion in suggestions:
                 st.markdown(f"- {suggestion}")
     
@@ -211,7 +211,7 @@ def show_prompt_validator():
 
 def show_production_validator():
     """Production Validator page"""
-    st.header("🚀 Production Validator")
+    st.header("Production Validator")
     st.markdown("Test prompts for production deployment with consistency, robustness, and performance tests.")
     
     prompt_id = st.text_input("Prompt ID:", value="my_prompt")
@@ -226,7 +226,7 @@ def show_production_validator():
     with col3:
         num_runs = st.number_input("Consistency Runs", min_value=3, max_value=10, value=5)
     
-    if st.button("🚀 Run Production Validation", type="primary"):
+        if st.button("Run Production Validation", type="primary"):
         if not prompt_text:
             st.error("Please enter prompt text.")
         elif not st.session_state.llm_client:
@@ -260,26 +260,26 @@ def show_production_validator():
             st.metric("Production Readiness Score", f"{score:.1f}%")
             
             if result['production_ready']:
-                st.success("✅ **Production Ready!** All tests passed.")
+                st.success("**Production Ready!** All tests passed.")
             else:
-                st.warning("⚠️ **Not Production Ready** - Address issues before deployment.")
+                st.warning("**Not Production Ready** - Address issues before deployment.")
             
             # Test results
-            st.subheader("📊 Test Results")
+            st.subheader("Test Results")
             for test_name, test_result in result['test_results'].items():
                 with st.expander(f"{test_name.replace('_', ' ').title()}", expanded=True):
                     st.json(test_result)
             
             # Recommendations
             if result['recommendations']:
-                st.subheader("💡 Recommendations")
+                st.subheader("Recommendations")
                 for rec in result['recommendations']:
                     st.markdown(f"- {rec}")
 
 
 def show_ab_testing():
     """A/B Testing page"""
-    st.header("⚖️ A/B Testing Framework")
+    st.header("A/B Testing Framework")
     st.markdown("Compare different prompt versions and track performance scientifically.")
     
     tab1, tab2, tab3 = st.tabs(["Create Test", "View Results", "Analyze Test"])
@@ -349,7 +349,7 @@ def show_ab_testing():
 
 def show_progress_tracker():
     """Progress Tracker page"""
-    st.header("📊 Progress Tracker")
+    st.header("Progress Tracker")
     st.markdown("Track your learning progress and skill mastery.")
     
     student_name = st.text_input("Your Name:", value=st.session_state.progress_tracker.student_name)
@@ -367,7 +367,7 @@ def show_progress_tracker():
     with col3:
         st.metric("Projects", progress['projects_completed'])
     
-    st.info(f"💡 **Next Milestone:** {progress['next_milestone']}")
+        st.info(f"**Next Milestone:** {progress['next_milestone']}")
     
     if st.button("Generate Skill Report"):
         report = st.session_state.progress_tracker.generate_skill_report()
@@ -376,7 +376,7 @@ def show_progress_tracker():
 
 def show_llm_playground():
     """LLM Playground page"""
-    st.header("🤖 LLM Playground")
+    st.header("LLM Playground")
     st.markdown("Test prompts with real LLM providers (OpenAI, Anthropic, Ollama).")
     
     # Provider selection
@@ -384,7 +384,7 @@ def show_llm_playground():
         current_provider = st.session_state.llm_client.get_provider_name()
         st.info(f"Current Provider: **{current_provider.upper()}**")
     else:
-        st.warning("⚠️ No LLM provider configured. Please set API keys in your environment.")
+            st.warning("No LLM provider configured. Please set API keys in your environment.")
         provider_type = st.selectbox("Select Provider:", ["openai", "anthropic", "ollama"])
         if st.button("Initialize Provider"):
             try:
@@ -411,7 +411,7 @@ def show_llm_playground():
     with col3:
         st.write("")  # Spacer
     
-    if st.button("🚀 Generate Response", type="primary"):
+        if st.button("Generate Response", type="primary"):
         if prompt:
             with st.spinner("Generating response..."):
                 response = st.session_state.llm_client.generate(
@@ -441,7 +441,7 @@ def show_llm_playground():
 
 def show_about():
     """About page"""
-    st.header("📚 About This Dashboard")
+    st.header("About This Dashboard")
     st.markdown("""
     ### AI Prompt Engineering Dashboard
     
@@ -455,11 +455,11 @@ def show_about():
     
     ### Features
     
-    - ✅ Multi-factor weighted scoring system
-    - ✅ Production-ready validation framework
-    - ✅ Model-agnostic LLM support (OpenAI, Anthropic, Ollama)
-    - ✅ Statistical A/B testing
-    - ✅ Real-time feedback and suggestions
+    - Multi-factor weighted scoring system
+    - Production-ready validation framework
+    - Model-agnostic LLM support (OpenAI, Anthropic, Ollama)
+    - Statistical A/B testing
+    - Real-time feedback and suggestions
     
     ### Getting Started
     

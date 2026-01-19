@@ -48,7 +48,7 @@ Thank you for your interest in contributing! This document provides guidelines a
 
 We welcome contributions in many forms:
 
-### 🐛 Bug Reports
+### Bug Reports
 
 When reporting bugs, please include:
 - Clear description of the issue
@@ -82,7 +82,7 @@ What actually happens
 Any other relevant information
 ```
 
-### 💡 Feature Requests
+### Feature Requests
 
 When requesting features, please include:
 - Clear description of the feature
@@ -108,7 +108,7 @@ Provide examples of usage
 Any other relevant information
 ```
 
-### 📝 Documentation Improvements
+### Documentation Improvements
 
 - Fix typos or clarify language
 - Add missing documentation
@@ -380,4 +380,4 @@ Contributors will be:
 - Mentioned in release notes
 - Credited in documentation
 
-Thank you for contributing! 🎉
+Thank you for contributing!
