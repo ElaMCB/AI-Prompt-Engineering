@@ -30,6 +30,8 @@ content/case_studies/*.json
 content/releases/*.json
 content/webinars/*.json
 content/automation_log.json
+content/metrics/*.json
+content/student_progress.json
 
 # API Keys
 .env
