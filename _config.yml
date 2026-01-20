@@ -40,6 +40,9 @@ exclude:
   - .git/
   - .vscode/
 
+# Show only minimal theme elements we want
+show_docs: false
+
 # Markdown processing
 markdown: kramdown
 kramdown:
