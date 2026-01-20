@@ -20,60 +20,100 @@ Learn to speak AI's language. Turn vague requests into precise instructions that
 
 ## Quick Navigation
 
-### Documentation
-- **[Quick Start Guide](docs/QUICK_START.md)** - Get started in minutes
-- **[API Reference](docs/API_REFERENCE.md)** - Complete tool documentation
-- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
+<div class="features">
 
-### Course Materials
-- **[Course Overview](course_overview.md)** - Full curriculum
-- **[Course Roadmap](COURSE_ROADMAP.md)** - Learning path
-- **[Foundations Lab](foundations_lab.md)** - First interactive lab
-- **[Start Here](START_HERE.md)** - Getting started guide
+<div class="feature-card">
+<h3>Documentation</h3>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li><a href="docs/QUICK_START.html">Quick Start Guide</a> - Get started in minutes</li>
+<li><a href="docs/API_REFERENCE.html">API Reference</a> - Complete tool documentation</li>
+<li><a href="docs/TROUBLESHOOTING.html">Troubleshooting</a> - Common issues and solutions</li>
+</ul>
+</div>
 
-### Tools & Resources
-- **[Interactive Dashboard](streamlit_app.py)** - Run with `streamlit run streamlit_app.py`
-- **[Prompt Validator](notebooks/prompt_validator.py)** - Score prompts 0-100%
-- **[Production Validator](notebooks/production_validator.py)** - Production testing
-- **[A/B Testing](notebooks/ab_testing_framework.py)** - Compare prompt versions
-- **[Progress Tracker](notebooks/progress_tracker.py)** - Track learning
+<div class="feature-card">
+<h3>Course Materials</h3>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li><a href="course_overview.html">Course Overview</a> - Full curriculum</li>
+<li><a href="COURSE_ROADMAP.html">Course Roadmap</a> - Learning path</li>
+<li><a href="foundations_lab.html">Foundations Lab</a> - First interactive lab</li>
+<li><a href="START_HERE.html">Start Here</a> - Getting started guide</li>
+</ul>
+</div>
 
-### Community
-- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
-- **[GitHub Repository](https://github.com/ElaMCB/AI-Prompt-Engineering)** - Source code
-- **[Improvements Summary](IMPROVEMENTS_SUMMARY.md)** - Recent enhancements
+<div class="feature-card">
+<h3>Tools & Resources</h3>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li><a href="https://github.com/ElaMCB/AI-Prompt-Engineering/blob/main/streamlit_app.py">Interactive Dashboard</a> - Run with <code>streamlit run streamlit_app.py</code></li>
+<li><a href="https://github.com/ElaMCB/AI-Prompt-Engineering/blob/main/notebooks/prompt_validator.py">Prompt Validator</a> - Score prompts 0-100%</li>
+<li><a href="https://github.com/ElaMCB/AI-Prompt-Engineering/blob/main/notebooks/production_validator.py">Production Validator</a> - Production testing</li>
+<li><a href="https://github.com/ElaMCB/AI-Prompt-Engineering/blob/main/notebooks/ab_testing_framework.py">A/B Testing</a> - Compare prompt versions</li>
+<li><a href="https://github.com/ElaMCB/AI-Prompt-Engineering/blob/main/notebooks/progress_tracker.py">Progress Tracker</a> - Track learning</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3>Community</h3>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li><a href="CONTRIBUTING.html">Contributing Guide</a> - How to contribute</li>
+<li><a href="https://github.com/ElaMCB/AI-Prompt-Engineering">GitHub Repository</a> - Source code</li>
+<li><a href="IMPROVEMENTS_SUMMARY.html">Improvements Summary</a> - Recent enhancements</li>
+</ul>
+</div>
+
+</div>
 
 ---
 
 ## Key Features
 
-### **Prompt Validator**
-Score prompts 0-100% using multi-factor weighted scoring:
-- Clarity (25%)
-- Specificity (25%)
-- Context (20%)
-- Structure (15%)
-- Examples (15%)
+<div class="features">
 
-### **Production Validator**
-Test prompts for production deployment:
-- Consistency testing
-- Robustness with edge cases
-- Performance monitoring
-- Automated recommendations
+<div class="feature-card">
+<h3>Prompt Validator</h3>
+<p>Score prompts 0-100% using multi-factor weighted scoring:</p>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li>Clarity (25%)</li>
+<li>Specificity (25%)</li>
+<li>Context (20%)</li>
+<li>Structure (15%)</li>
+<li>Examples (15%)</li>
+</ul>
+</div>
 
-### **Model-Agnostic LLM Support**
-Works with multiple providers:
-- OpenAI (GPT-3.5, GPT-4)
-- Anthropic (Claude 3)
-- Ollama (local models)
+<div class="feature-card">
+<h3>Production Validator</h3>
+<p>Test prompts for production deployment:</p>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li>Consistency testing</li>
+<li>Robustness with edge cases</li>
+<li>Performance monitoring</li>
+<li>Automated recommendations</li>
+</ul>
+</div>
 
-### **Interactive Dashboard**
-Use the Streamlit dashboard for:
-- Real-time prompt validation
-- LLM playground
-- A/B testing interface
-- Progress tracking
+<div class="feature-card">
+<h3>Model-Agnostic LLM Support</h3>
+<p>Works with multiple providers:</p>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li>OpenAI (GPT-3.5, GPT-4)</li>
+<li>Anthropic (Claude 3)</li>
+<li>Ollama (local models)</li>
+</ul>
+</div>
+
+<div class="feature-card">
+<h3>Interactive Dashboard</h3>
+<p>Use the Streamlit dashboard for:</p>
+<ul style="text-align: left; padding-left: 1.5rem;">
+<li>Real-time prompt validation</li>
+<li>LLM playground</li>
+<li>A/B testing interface</li>
+<li>Progress tracking</li>
+</ul>
+</div>
+
+</div>
 
 ---
 
@@ -153,18 +193,10 @@ Use the Streamlit dashboard for:
 
 ---
 
-## Live Site
-
-Your GitHub Pages site: **https://elamcb.github.io/AI-Prompt-Engineering/**
-
-- Auto-deployed from main branch
-- Documentation accessible online
-- Markdown rendering
-- Easy navigation
 
 ---
 
-## 📝 License
+## License
 
 MIT Licensed • Actively Maintained • Community Contributions Welcome
 
