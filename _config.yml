@@ -39,6 +39,8 @@ exclude:
   - venv/
   - .git/
   - .vscode/
+  - content/
+  - tools/
 
 # Show only minimal theme elements we want
 show_docs: false

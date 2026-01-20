@@ -1,0 +1,59 @@
+{
+  "content_marketing": {
+    "blog_schedule": {
+      "frequency": "weekly",
+      "topics": [
+        "Context Injection Techniques",
+        "Chain-of-Thought Prompting",
+        "Few-Shot Learning",
+        "Prompt Optimization Strategies",
+        "Production Prompt Testing",
+        "Multi-Modal Prompts",
+        "Prompt Versioning",
+        "A/B Testing Prompts"
+      ],
+      "target_audiences": [
+        "developers and content creators",
+        "business professionals",
+        "students and researchers",
+        "marketers"
+      ]
+    },
+    "case_study_schedule": {
+      "frequency": "bi-weekly",
+      "categories": [
+        "career advancement",
+        "time savings",
+        "revenue increase",
+        "quality improvement"
+      ]
+    },
+    "tool_release_schedule": {
+      "frequency": "monthly",
+      "upcoming_tools": [
+        "Prompt Validator v2.0",
+        "Production Testing Framework",
+        "Multi-LLM Comparison Tool",
+        "Prompt Library Manager"
+      ]
+    },
+    "webinar_schedule": {
+      "frequency": "bi-weekly",
+      "topics": [
+        "Advanced Prompt Engineering Techniques",
+        "Production Prompt Deployment",
+        "A/B Testing Prompts at Scale",
+        "Building AI Agents with Prompts",
+        "Prompt Engineering for Content Creation",
+        "Enterprise Prompt Strategies"
+      ],
+      "duration_minutes": 60
+    }
+  },
+  "automation": {
+    "auto_generate_blog_posts": true,
+    "auto_collect_case_studies": true,
+    "auto_schedule_releases": true,
+    "notification_channels": []
+  }
+}
